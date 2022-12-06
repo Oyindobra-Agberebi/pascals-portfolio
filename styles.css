@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@400;500;700&family=Work+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 0 120px;
+}
+
+.header {
+    width: 100%;    
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > .logo  {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+
+}
+.header > .logo > a {
+    text-decoration: none;
+    color: #5F5F6D;
+}
+.header > .nav > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header > .nav > ul > li > a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: #5F5F6D;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+.information {
+    margin-top: 156px;
+}
+.information > h4 {
+    max-width: 636px;
+    font-family: 'Taviraj', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #5F5F6D;
+    font-style: normal;
+}
+
+.information > h4 > .info-style {
+    font-weight: 500;
+    color: #302F37;
+}
+
+.information > .info-details {
+    max-width: 784px;
+    height: auto;
+    padding-left: 32px;
+    border-left: 2px solid purple;
+    font-family: 'Taviraj', serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    color: #5F5F6D;
+    margin-top: 40px;
+}
+
+
+.information > .portfolio {
+    display: flex;
+    margin-top: 52px;
+}
+
+
+.contact, .resume {
+    width: 235px;
+    height: 60px;
+    border: 1px solid #9292A0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+.contact > a, .resume > a {
+    text-decoration: none;   
+}
